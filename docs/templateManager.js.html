@@ -49,7 +49,8 @@ class TemplateManager {
     _.templateSettings.interpolate &#x3D; /\{\{(.+?)\}\}/g;
 
     /**
-     * Contains all templates urls
+     * Contains all templates urls: {name: url}. 
+     * New templates can be added by adding keys to that object after the templateManager is instanciated: templateManager.viewPaths.newTemplate &#x3D; url;
      * @type {object}
      */
     this.viewPaths &#x3D; viewPaths;
