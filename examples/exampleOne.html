@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="./js/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="./js/lodash.min.js" type="text/javascript">
+        </script>
+        <script src="../dist/templateManager.min.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+            var viewPaths = {
+              firstTemplate: "./templates/firstTemplate.html",
+              secondTemplate: "./templates/secondTemplate.html"
+            }; 
+            
+            var templateManager = new TemplateManager(viewPaths, function () {
+                // this is the callback
+                var variables = {variableOne: 1, variableTwo: "two"};
+                window.templateManager.renderInTarget("firstTemplate", variables, ".container");
+                
+                var rawHTML = window.templateManager.render("secondTemplate", variables);
+
+                console.log(rawHTML);
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+        </div>
+    </body>
+</html>
