@@ -1,6 +1,6 @@
 {
   "name": "lodash-template-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Load and render lodash templates made (even more) easy.",
   "main": "dist/templateManager.min.js",
   "directories": {
@@ -22,7 +22,7 @@
   ],
   "author": "Albert Buchard",
   "license": "MIT",
-  "dependencies": {    
+  "dependencies": {
     "jquery": "^3.0.0",
     "lodash": "^4.15.0"
   },
