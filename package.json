@@ -1,0 +1,21 @@
+{
+  "name": "lodash-template-manager",
+  "version": "1.0.0",
+  "description": "Load and render lodash templates made (even more) easy.",
+  "main": "dist/templateManager.min.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lodash",
+    "templates",
+    "load",
+    "render",
+    "manager"
+  ],
+  "author": "Albert Buchard",
+  "license": "MIT"
+}
