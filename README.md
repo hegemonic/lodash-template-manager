@@ -44,7 +44,7 @@ Needs AJAX (cannot work on the file:// protocol)
 
 
 # Docs 
-Soon...
+https://albertbuchard.github.io/lodash-template-manager
 
 # Important note
 The is based on the code of someone (i think on stackOverflow) that I copied and reworked months ago. But I could not find the question or the name of the guy to give him credit. 
