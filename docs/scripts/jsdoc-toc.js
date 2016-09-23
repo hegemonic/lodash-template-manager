@@ -6,7 +6,7 @@
     treeNode.tree({
         autoEscape: false,
         closedIcon: '&#x21e2;',
-        data: [],
+        data: [{"label":"<a href=\"global.html\">Globals</a>","id":"global","children":[]},{"label":"<a href=\"TemplateManager.html\">TemplateManager</a>","id":"TemplateManager","children":[]}],
         openedIcon: ' &#x21e3;',
         saveState: true,
         useContextMenu: false
