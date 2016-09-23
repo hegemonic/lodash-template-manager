@@ -6,6 +6,10 @@
   "directories": {
     "example": "examples"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertbuchard/lodash-template-manager"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +21,8 @@
     "manager"
   ],
   "author": "Albert Buchard",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc-baseline": "https://github.com/hegemonic/baseline/tarball/master"
+  }
 }
