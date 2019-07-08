@@ -27,6 +27,6 @@
     "lodash": "^4.15.0"
   },
   "devDependencies": {
-    "jsdoc-baseline": "https://github.com/hegemonic/baseline/tarball/master"
+    "jsdoc-baseline": "https://github.com/hegemonic/baseline/tarball/222e13a"
   }
 }
